@@ -4,4 +4,8 @@ function Scooter(year, color, model){
   this.model = model;
 }
 
-let mabast = new Scooter("Allison", "16 years", "2 years")
+function Driver(name, age, experience){
+  this.name=name;
+  this.age=age;
+  this.experience=experience;
+}
